@@ -1,8 +1,7 @@
 name: app
-description: A new Flutter package.
-version: 0.0.1
-author:
-homepage:
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -11,10 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  ui:
+    path: ../ui
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  golden_toolkit: ^0.8.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - images/
