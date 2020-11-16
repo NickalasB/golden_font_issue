@@ -3,7 +3,7 @@ import 'package:golden_toolkit/golden_toolkit.dart';
 import 'package:ui/ui.dart';
 
 void main() {
-  testGoldens('Weather Card - Accessibility', (tester) async {
+  testGoldens('Should be able to see custom font in Golden', (tester) async {
     await tester.pumpWidgetBuilder(
       Container(child: Center(child: TestWidget())),
     );
